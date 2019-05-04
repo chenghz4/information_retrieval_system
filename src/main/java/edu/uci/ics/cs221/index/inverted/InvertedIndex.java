@@ -207,7 +207,9 @@ public class InvertedIndex {
         this.segmentName = (new Timestamp(System.currentTimeMillis()))
                 .toString()
                 .replace(" ", "_")
-                .replace("-", "");
+                .replace("-", "")
+                .replace(":","-");
+        System.out.println(segmentName);
         this.invertListPath = this.invertListDir + this.segmentName + ".list";
         this.docStorePath = this.docStoreDir + this.segmentName + ".db";
         this.checkAndCreateDir(this.invertListDir);
