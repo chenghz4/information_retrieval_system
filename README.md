@@ -30,6 +30,14 @@ In this project, we implement:
 Based on the previous project, we add a poistional list for each element of inverted list. So we allow user to search with a specific order of key words. 
 Also, we compressed the data based on delta encoding and variable-length encoding.
 
+## Project 4
+In this project, we implement two pagerank model:
+
+1.TDF-idf search pagerank model, the rank depends on the input search query and we use the vector model. 
+2.We build the rank based on the number of incoming edge of each document, and generate a matrix for that.
+
+
+
 
 
 
